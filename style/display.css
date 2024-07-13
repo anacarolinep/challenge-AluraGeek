@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+:root {
+    --Blue: #03318C;
+    --Purple: #5d04d9;
+    --Primary-font: "Press Start 2P", system-ui;
+    --Secondary-font: "IBM Plex Mono", monospace;
+    --White: #ffffff;
+    --Black: #000000;
+}
+header {
+    background-color: var(--Purple);
+}
+.title {
+    font-family: var(--Primary-font);
+    color: var(--White);
+} 
+.main-title {
+    font-family: var(--Primary-font);
+    color: var(--Black);
+}
+input {
+    font-family: var(--Secondary-font);
+    color: var(--Blue);
+}
+.button-save{
+    background-color: var(--Blue);
+    color: var(--White);
+}
+.button-delete {
+    background-color: var(--White);
+    color: var(--Blue);
+}
+.button-form {
+    border: solid 3px var(--Blue);
+    font-family: var(--Secondary-font);
+}
+
+footer {
+    background-color: var(--Purple);
+    color: var(--White);
+    box-shadow: 0rem -0.5rem 5px silver;
+}
+
+.subtitle_dev {
+    font-family: var(--Secondary-font);
+}
+
+.subtitle__alura {
+    font-family: var(--Secondary-font);
+}
